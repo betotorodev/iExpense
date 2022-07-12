@@ -18,6 +18,7 @@
 		18E724BE287DCD5500791C70 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724BD287DCD5500791C70 /* Codable.swift */; };
 		18E724C1287DD3C100791C70 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724C0287DD3C100791C70 /* ExpenseItem.swift */; };
 		18E724C3287DD41900791C70 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724C2287DD41900791C70 /* Expenses.swift */; };
+		18E724C5287E063F00791C70 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724C4287E063F00791C70 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		18E724BD287DCD5500791C70 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		18E724C0287DD3C100791C70 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		18E724C2287DD41900791C70 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		18E724C4287E063F00791C70 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				18E724C0287DD3C100791C70 /* ExpenseItem.swift */,
 				18E724C2287DD41900791C70 /* Expenses.swift */,
 				189EAC3E287CE398006CD34B /* ContentView.swift */,
+				18E724C4287E063F00791C70 /* AddView.swift */,
 				189EAC40287CE39A006CD34B /* Assets.xcassets */,
 				189EAC42287CE39A006CD34B /* Preview Content */,
 			);
@@ -168,6 +171,7 @@
 			files = (
 				189EAC4B287CFE89006CD34B /* SharingState.swift in Sources */,
 				18E724BC287DC90200791C70 /* SaveUserData.swift in Sources */,
+				18E724C5287E063F00791C70 /* AddView.swift in Sources */,
 				189EAC3F287CE398006CD34B /* ContentView.swift in Sources */,
 				18E724C1287DD3C100791C70 /* ExpenseItem.swift in Sources */,
 				18E724BA287DBD8400791C70 /* onDelete.swift in Sources */,
