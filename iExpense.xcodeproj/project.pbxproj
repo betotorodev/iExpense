@@ -61,12 +61,7 @@
 		189EAC3B287CE398006CD34B /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
-				189EAC3C287CE398006CD34B /* iExpenseApp.swift */,
-				189EAC4A287CFE88006CD34B /* SharingState.swift */,
-				18E724B7287DB8B000791C70 /* ShowingViews.swift */,
-				18E724B9287DBD8400791C70 /* onDelete.swift */,
-				18E724BB287DC90200791C70 /* SaveUserData.swift */,
-				18E724BD287DCD5500791C70 /* Codable.swift */,
+				18E724BF287DD0EB00791C70 /* exercises */,
 				189EAC3E287CE398006CD34B /* ContentView.swift */,
 				189EAC40287CE39A006CD34B /* Assets.xcassets */,
 				189EAC42287CE39A006CD34B /* Preview Content */,
@@ -80,6 +75,19 @@
 				189EAC43287CE39A006CD34B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18E724BF287DD0EB00791C70 /* exercises */ = {
+			isa = PBXGroup;
+			children = (
+				189EAC3C287CE398006CD34B /* iExpenseApp.swift */,
+				189EAC4A287CFE88006CD34B /* SharingState.swift */,
+				18E724B7287DB8B000791C70 /* ShowingViews.swift */,
+				18E724B9287DBD8400791C70 /* onDelete.swift */,
+				18E724BB287DC90200791C70 /* SaveUserData.swift */,
+				18E724BD287DCD5500791C70 /* Codable.swift */,
+			);
+			path = exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
