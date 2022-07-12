@@ -15,6 +15,7 @@
 		18E724B8287DB8B000791C70 /* ShowingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724B7287DB8B000791C70 /* ShowingViews.swift */; };
 		18E724BA287DBD8400791C70 /* onDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724B9287DBD8400791C70 /* onDelete.swift */; };
 		18E724BC287DC90200791C70 /* SaveUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724BB287DC90200791C70 /* SaveUserData.swift */; };
+		18E724BE287DCD5500791C70 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724BD287DCD5500791C70 /* Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		18E724B7287DB8B000791C70 /* ShowingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingViews.swift; sourceTree = "<group>"; };
 		18E724B9287DBD8400791C70 /* onDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onDelete.swift; sourceTree = "<group>"; };
 		18E724BB287DC90200791C70 /* SaveUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveUserData.swift; sourceTree = "<group>"; };
+		18E724BD287DCD5500791C70 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				18E724B7287DB8B000791C70 /* ShowingViews.swift */,
 				18E724B9287DBD8400791C70 /* onDelete.swift */,
 				18E724BB287DC90200791C70 /* SaveUserData.swift */,
+				18E724BD287DCD5500791C70 /* Codable.swift */,
 				189EAC3E287CE398006CD34B /* ContentView.swift */,
 				189EAC40287CE39A006CD34B /* Assets.xcassets */,
 				189EAC42287CE39A006CD34B /* Preview Content */,
@@ -153,6 +156,7 @@
 				18E724BC287DC90200791C70 /* SaveUserData.swift in Sources */,
 				189EAC3F287CE398006CD34B /* ContentView.swift in Sources */,
 				18E724BA287DBD8400791C70 /* onDelete.swift in Sources */,
+				18E724BE287DCD5500791C70 /* Codable.swift in Sources */,
 				18E724B8287DB8B000791C70 /* ShowingViews.swift in Sources */,
 				189EAC3D287CE398006CD34B /* iExpenseApp.swift in Sources */,
 			);
