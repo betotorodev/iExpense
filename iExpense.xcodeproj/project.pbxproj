@@ -11,6 +11,7 @@
 		189EAC3F287CE398006CD34B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EAC3E287CE398006CD34B /* ContentView.swift */; };
 		189EAC41287CE39A006CD34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EAC40287CE39A006CD34B /* Assets.xcassets */; };
 		189EAC44287CE39A006CD34B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EAC43287CE39A006CD34B /* Preview Assets.xcassets */; };
+		189EAC4B287CFE89006CD34B /* SharingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EAC4A287CFE88006CD34B /* SharingState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		189EAC3E287CE398006CD34B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189EAC40287CE39A006CD34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189EAC43287CE39A006CD34B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		189EAC4A287CFE88006CD34B /* SharingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				189EAC3C287CE398006CD34B /* iExpenseApp.swift */,
+				189EAC4A287CFE88006CD34B /* SharingState.swift */,
 				189EAC3E287CE398006CD34B /* ContentView.swift */,
 				189EAC40287CE39A006CD34B /* Assets.xcassets */,
 				189EAC42287CE39A006CD34B /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189EAC4B287CFE89006CD34B /* SharingState.swift in Sources */,
 				189EAC3F287CE398006CD34B /* ContentView.swift in Sources */,
 				189EAC3D287CE398006CD34B /* iExpenseApp.swift in Sources */,
 			);
