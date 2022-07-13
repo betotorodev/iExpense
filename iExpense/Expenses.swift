@@ -24,8 +24,6 @@ class Expenses: ObservableObject {
     }
   }
   
-  let localCurrency: FloatingPointFormatStyle<Double>.Currency = .currency(code: Locale.current.currencyCode ?? "USD")
-  
   init() {
     if let savedPersonalItems = UserDefaults.standard.data(forKey: "PersonalItems"),
        let savedBusinessItems = UserDefaults.standard.data(forKey: "BusinessItems") {

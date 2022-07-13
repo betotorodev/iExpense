@@ -20,6 +20,7 @@
 		18E724C3287DD41900791C70 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724C2287DD41900791C70 /* Expenses.swift */; };
 		18E724C5287E063F00791C70 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724C4287E063F00791C70 /* AddView.swift */; };
 		18E724C7287F115B00791C70 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724C6287F115B00791C70 /* ListItem.swift */; };
+		18E724C9287F506800791C70 /* FormatStyle-LocalCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E724C8287F506800791C70 /* FormatStyle-LocalCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		18E724C2287DD41900791C70 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		18E724C4287E063F00791C70 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		18E724C6287F115B00791C70 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		18E724C8287F506800791C70 /* FormatStyle-LocalCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormatStyle-LocalCurrency.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				18E724BF287DD0EB00791C70 /* exercises */,
 				18E724C0287DD3C100791C70 /* ExpenseItem.swift */,
+				18E724C8287F506800791C70 /* FormatStyle-LocalCurrency.swift */,
 				18E724C2287DD41900791C70 /* Expenses.swift */,
 				189EAC3E287CE398006CD34B /* ContentView.swift */,
 				18E724C6287F115B00791C70 /* ListItem.swift */,
@@ -175,6 +178,7 @@
 				189EAC4B287CFE89006CD34B /* SharingState.swift in Sources */,
 				18E724BC287DC90200791C70 /* SaveUserData.swift in Sources */,
 				18E724C5287E063F00791C70 /* AddView.swift in Sources */,
+				18E724C9287F506800791C70 /* FormatStyle-LocalCurrency.swift in Sources */,
 				189EAC3F287CE398006CD34B /* ContentView.swift in Sources */,
 				18E724C7287F115B00791C70 /* ListItem.swift in Sources */,
 				18E724C1287DD3C100791C70 /* ExpenseItem.swift in Sources */,

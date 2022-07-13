@@ -38,7 +38,7 @@ struct ContentView: View {
               ListItem(expenses: expenses, item: item)
             }
             .onDelete(perform: removeBusinessItems)
-          }          
+          }
         }
         
       }

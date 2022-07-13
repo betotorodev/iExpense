@@ -28,7 +28,7 @@ struct AddView: View {
           }
         }
         
-        TextField("Amount", value: $amount, format: expenses.localCurrency)
+        TextField("Amount", value: $amount, format: .localCurrency)
           .keyboardType(.decimalPad)
       }
       .navigationTitle("Add new expense")
