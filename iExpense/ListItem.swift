@@ -22,17 +22,8 @@ struct ListItem: View {
       
       Spacer()
       
-      if item.amount <= 10.0 {
-        Text(item.amount, format: .localCurrency)
-          .foregroundColor(.green)
-      } else if item.amount <= 100.0 {
-        Text(item.amount, format: .localCurrency)
-          .foregroundColor(.black)
-      } else if item.amount > 100.0 {
-        Text(item.amount, format: .localCurrency)
-          .foregroundColor(.red)
-      }
-      
+      Text(item.amount, format: .localCurrency)
+        .style(for: item)
     }
     
   }
