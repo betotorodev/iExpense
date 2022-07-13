@@ -12,28 +12,35 @@ struct ContentView: View {
   @StateObject var expenses = Expenses()
   @State private var showingAddExpense = false
   
-  func removeItems(at offsets: IndexSet) {
-    expenses.items.remove(atOffsets: offsets)
+  func removePersonalItems(at offsets: IndexSet) {
+    expenses.personalItems.remove(atOffsets: offsets)
+  }
+  
+  func removeBusinessItems(at offsets: IndexSet) {
+    expenses.businessItems.remove(atOffsets: offsets)
   }
   
   var body: some View {
     NavigationView {
       List {
-        ForEach(expenses.items) { item in
-          HStack {
-            VStack(alignment: .leading) {
-              Text(item.name)
-                .font(.headline)
-              Text(item.type)
+        if !expenses.personalItems.isEmpty {
+          Section("Personal") {
+            ForEach(expenses.personalItems) { item in
+              ListItem(expenses: expenses, item: item)
             }
-            
-            Spacer()
-            
-            Text(item.amount, format: .currency(code: "USD"))
-            
+            .onDelete(perform: removePersonalItems)
           }
         }
-        .onDelete(perform: removeItems)
+        
+        if !expenses.businessItems.isEmpty {
+          Section("Business") {
+            ForEach(expenses.businessItems) { item in
+              ListItem(expenses: expenses, item: item)
+            }
+            .onDelete(perform: removeBusinessItems)
+          }          
+        }
+        
       }
       .navigationTitle("iExpense")
       .toolbar {
