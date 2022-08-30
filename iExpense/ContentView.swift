@@ -27,6 +27,8 @@ struct ContentView: View {
           Section("Personal") {
             ForEach(expenses.personalItems) { item in
               ListItem(expenses: expenses, item: item)
+                .accessibilityLabel(item.name)
+                .accessibilityHint(item.type)
             }
             .onDelete(perform: removePersonalItems)
           }
@@ -36,6 +38,8 @@ struct ContentView: View {
           Section("Business") {
             ForEach(expenses.businessItems) { item in
               ListItem(expenses: expenses, item: item)
+                .accessibilityLabel(item.name)
+                .accessibilityHint(item.type)
             }
             .onDelete(perform: removeBusinessItems)
           }
